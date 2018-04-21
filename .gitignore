@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # processing properties
-.properties
+sketch.properties
