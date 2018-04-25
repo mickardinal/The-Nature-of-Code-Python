@@ -12,12 +12,10 @@ def setup():
         movers.append(Mover())
     
 def draw():
-    background(255, 204, 0)
+    background(255)
     
     for mover in movers:
-        line(mover.location.x, mover.location.y, width/2, height/2)
-        stroke(255, 255, 255, 0.1)
-        fill(255, 255, 255, 0.1)
+        
         mover.update()
         mover.display()
         # mover.checkEdges()
